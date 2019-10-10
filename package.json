@@ -1,0 +1,26 @@
+{
+  "name": "homeworkdataapi",
+  "version": "0.0.1",
+  "description": "Retrieving data from API and Display it",
+  "main": "express-server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node": "^12.11.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadtil/NodeExpressHomeworkDataAPI.git"
+  },
+  "author": "Duncan Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadtil/NodeExpressHomeworkDataAPI/issues"
+  },
+  "homepage": "https://github.com/hadtil/NodeExpressHomeworkDataAPI#readme"
+}

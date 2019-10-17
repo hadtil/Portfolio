@@ -35,6 +35,12 @@ app.get("/", function(req, res){
               "Friday",
               "Saturday"];
 
+  if ((day1 === 0) || (day1 === 6)) {
+    res.write("It's a weekend!!<br>");
+  } else {
+    res.write("It's a weekday!!<br>");
+  }
+
   res.write('Selected Day (' + chosenDay +
             ') is a ' + days[day1]);
   res.send();

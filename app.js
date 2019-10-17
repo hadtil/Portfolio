@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
+app.set('view engine', 'ejs');
 
 app.get("/", function(req, res){
 
@@ -35,18 +36,26 @@ app.get("/", function(req, res){
               "Friday",
               "Saturday"];
 
+  var day = "";
+
   if ((day1 === 0) || (day1 === 6)) {
     // res.write("It's a weekend!!<br>");
-    res.sendFile(__dirname + "/weekend.html");
+    // res.sendFile(__dirname + "/weekend.html");
+    day = "Weekend";
+
   } else {
     // res.write("It's a weekday!!<br>");
-    res.sendFile(__dirname + "/weekday.html");
+    // res.sendFile(__dirname + "/weekday.html");
+    day = "Weekday";
+
   }
 
   // res.write('Selected Day (' + chosenDay +
   //           ') is a ' + days[day1]);
   //res.send();
 
+  // res.render("list.ejs", {kindOfDay:day});
+  res.render("list", {kindOfDay:day, nameOfDay:days[day1]});
 });
 
 

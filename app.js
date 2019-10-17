@@ -6,8 +6,26 @@ const app = express();
 
 app.get("/", function(req, res){
 
-  var chosenDay = new Date('August 19, 1975 23:15:30');
-  var day1 = birthday.getDay();
+  // Taken from: https://stackoverflow.com/questions/31378526/generate-random-date-between-two-dates-and-times-in-javascript/31379536#31379536
+  var myRandomDateGenerator =
+         function(rangeOfDays, startHour, hourRange){
+              var today = new Date(Date.now());
+              return new Date(today.getYear() + 1900,
+                              today.getMonth(),
+                              today.getDate() +
+                                  Math.random() * rangeOfDays,
+                              Math.random() * hourRange +
+                                  startHour,
+                              Math.random() * 60);
+              //return new Date(2018, 11, 24, 10, 33, 30, 0);
+              // return "Hello There";
+  };
+
+  var chosenDay = myRandomDateGenerator(30,8,2);
+  res.write('<html>' + chosenDay.toString() + '<br>');
+
+  // var chosenDay = new Date('August 19, 1975 23:15:30');
+  var day1 = chosenDay.getDay();
   // Sunday - Saturday : 0 - 6
   var days = ["Sunday",
               "Monday",

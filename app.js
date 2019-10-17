@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.set('view engine', 'ejs');
-app.use(express.static("public")); 
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({
   extended: true
 }));
@@ -81,7 +81,7 @@ app.get("/", function(req, res) {
 
   var currentDay = chosenDay.toLocaleDateString("en-GB", options);
   // var currentDay = chosenDay.toLocaleDateString("ja-JP", options);
-  res.render("list", {
+  res.render("listv2", {
     kindOfDay: day,
     nameOfDay: days[day1],
     newOutput: currentDay,

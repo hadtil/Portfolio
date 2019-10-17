@@ -22,7 +22,7 @@ app.get("/", function(req, res){
   };
 
   var chosenDay = myRandomDateGenerator(30,8,2);
-  res.write('<html>' + chosenDay.toString() + '<br>');
+  // res.write('<html>' + chosenDay.toString() + '<br>');
 
   // var chosenDay = new Date('August 19, 1975 23:15:30');
   var day1 = chosenDay.getDay();
@@ -36,14 +36,17 @@ app.get("/", function(req, res){
               "Saturday"];
 
   if ((day1 === 0) || (day1 === 6)) {
-    res.write("It's a weekend!!<br>");
+    // res.write("It's a weekend!!<br>");
+    res.sendFile(__dirname + "/weekend.html");
   } else {
-    res.write("It's a weekday!!<br>");
+    // res.write("It's a weekday!!<br>");
+    res.sendFile(__dirname + "/weekday.html");
   }
 
-  res.write('Selected Day (' + chosenDay +
-            ') is a ' + days[day1]);
-  res.send();
+  // res.write('Selected Day (' + chosenDay +
+  //           ') is a ' + days[day1]);
+  //res.send();
+
 });
 
 

@@ -18,12 +18,19 @@
     <br>
 
     <ul>
+      <% var i; %>
+      <% for (i = 0; i < newListItem.length; i++) { %>
+        <li><%= newListItem[i] %></li><br>
+      <% } %>
+
+      <!--
       <li>Buy Food</li>
       <li>Cook Food</li>
       <li>Eat Food</li>
-      <% if (newListItem != "") { %>
-      <li><%= newListItem %></li>
-      <% } %>
+      < % if (newListItem != "") { %>
+      <li>< %= newListItem %></li>
+      < % } %>
+      -->
     </ul>
 
     <br>

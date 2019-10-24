@@ -1,0 +1,5 @@
+# exclude everything
+node_modules/*
+
+# exception to the rule
+!node_modules/.gitkeep

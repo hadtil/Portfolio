@@ -2,14 +2,21 @@
   <h1>Home</h1>
   <p><%= openingBlurb %></p>
   <br>
-  <br>
   <!--
   < % var i; %>
   < % for (i = 0; i < posts.length; i++) { %>
   < % console.log(posts[i].title); %>
   < % } %>
   -->
-  <% posts.forEach(function(post){ %>
-  <%  console.log(post.title); %>
+  <!--
+  < % posts.forEach(function(post){ %>
+  < %  console.log(post.title); %>
+  < % }) %>
+  -->
+  <!-- posts array stays the same, the .slice() creates a shallow copy. -->
+  <% posts.slice().reverse().forEach(function(post){ %>
+  <%  //console.log(post.title); %>
+  <h1><%= post.title %></h1>
+  <p><%= post.comment %></p>
   <% }) %>
 <% include ../partials/footer %>

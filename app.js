@@ -18,7 +18,8 @@ app.use(express.static("public"));
 var myPosts = [];
 
 app.get("/", function(req, res) {
-  res.render("pages/home.ejs", {openingBlurb:homeStartingContent});
+  res.render("pages/home.ejs", {openingBlurb:homeStartingContent,
+                                posts:myPosts});
 });
 
 app.get("/about", function(req, res){
@@ -40,7 +41,7 @@ app.post("/compose", function(req, res){
   myPosts.push({title:blogTitle, comment:blogPost});
 
   // console.log({title:blogTitle, comment:blogPost});
-  console.log(myPosts);
+  // console.log(myPosts);
 
   res.redirect('/');
 });

@@ -19,7 +19,13 @@ app.get("/", function(req, res) {
   res.render("pages/home.ejs", {openingBlurb:homeStartingContent});
 });
 
+app.get("/about", function(req, res){
+  res.render("pages/about.ejs", {openingBlurb:aboutContent});
+});
 
+app.get("/contact", function(req, res){
+  res.render("pages/contact.ejs", {openingBlurb:contactContent});
+});
 
 
 

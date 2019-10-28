@@ -15,6 +15,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
+var myPosts = [];
+
 app.get("/", function(req, res) {
   res.render("pages/home.ejs", {openingBlurb:homeStartingContent});
 });
@@ -32,9 +34,15 @@ app.get("/compose", function(req, res){
 });
 
 app.post("/compose", function(req, res){
-  var blogPost = req.body.blogComment;
-  console.log(blogPost);
-  res.render("pages/compose.ejs");
+  var blogTitle = req.body.blogTitle;
+  var blogPost = req.body.blogPost;
+
+  myPosts.push({title:blogTitle, comment:blogPost});
+
+  // console.log({title:blogTitle, comment:blogPost});
+  console.log(myPosts);
+
+  res.redirect('/');
 });
 
 

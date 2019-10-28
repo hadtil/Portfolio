@@ -27,6 +27,15 @@ app.get("/contact", function(req, res){
   res.render("pages/contact.ejs", {openingBlurb:contactContent});
 });
 
+app.get("/compose", function(req, res){
+  res.render("pages/compose.ejs");
+});
+
+app.post("/compose", function(req, res){
+  var blogPost = req.body.blogComment;
+  console.log(blogPost);
+  res.render("pages/compose.ejs");
+});
 
 
 

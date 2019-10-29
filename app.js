@@ -46,6 +46,20 @@ app.post("/compose", function(req, res){
   res.redirect('/');
 });
 
+app.get("/posts/:blogTitle", function(req, res) {
+    console.log(req.params.blogTitle);
+
+    // myArray.find(x => x.id === '45').foo;
+    var result = myPosts.find(({title}) => title === req.params.blogTitle);
+    if (typeof result !== 'undefined'){
+      console.log("Match Found");
+    } else {
+      console.log("Match not Found");
+    };
+
+    res.redirect('/');
+});
+
 
 
 

@@ -5,13 +5,15 @@
   </div>
 
   <div class="box">
-    <% newListItems.forEach(function(todo){
-    // < % for (let i=0; i<newListItems.length; i++) { %>
+    <% newListItems.forEach(function(todo){ %>
+    <!-- < % for (let i=0; i<newListItems.length; i++) { %> -->
+    <form action="/delete" method="post">
       <div class="item">
-        <input type="checkbox">
+        <input type="checkbox" onChange="this.form.submit()" name="checkbox" value="<%= todo._id %>">
         <!-- <p>< %= newListItems[i]  %></p> -->
         <p><%= todo.name %></p>
       </div>
+    </form>
     <% }) %>
 
       <form class="item" action="/" method="post">

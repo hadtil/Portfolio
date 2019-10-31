@@ -43,7 +43,7 @@ const item1 = new item({
 });
 
 const item2 = new item({
-  name:"Hit the + (plus) button to add something"
+  name:"Plus button to add todo"
 });
 
 const item3 = new item({
@@ -97,6 +97,18 @@ app.post("/", function(req, res){
     res.redirect("/");
 });
 
+app.post("/delete", function(req, res){
+  // console.log(req.body.checkbox);
+  const checkedItemID = req.body.checkbox;
+
+  item.findByIdAndRemove(checkedItemID, function(err){
+    if (!err) {
+      console.log("Successfully deleted checked item");
+    }
+  });
+
+  res.redirect("/");
+});
 
 app.listen(3000, function() {
   console.log("Server started on port 3000");

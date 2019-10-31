@@ -52,20 +52,24 @@ const item3 = new item({
 
 const defaultItems = [item1, item2, item3];
 
-// item.insertMany(defaultItems, function(err){
-//   if (err){
-//     console.log(err);
-//   } else {
-//     console.log("Successfully Saved default values");
-//   }
-// });
-
 app.get("/", function(req, res) {
 //const day = date.getDate();
 
   item.find({}, function(err, foundItems){
     // console.log(foundItems);
-    res.render("list", {listTitle: "Today", newListItems: foundItems});
+
+    if(foundItems.length === 0){
+      item.insertMany(defaultItems, function(err){
+        if (err){
+          console.log(err);
+        } else {
+          console.log("Successfully Saved default values");
+        }
+      });
+      res.redirect('/');
+    } else {
+      res.render("list", {listTitle: "Today", newListItems: foundItems});
+    }
   });
 
   // res.render("list", {listTitle: "Today", newListItems: defaultItems});
@@ -73,8 +77,23 @@ app.get("/", function(req, res) {
 });
 
 app.post("/", function(req, res){
-  const item = req.body.newItem;
-    items.push(item);
+  const itemName = req.body.newItem;
+
+  const myNewToDoItem = new item({ name:itemName });
+
+  item.find({name:itemName}, function(err, resultSet){
+    if(resultSet.length === 0){
+      myNewToDoItem.save();
+  //     item.insertOne(myNewToDoItem, function(err){
+  //       if (err) {
+  //         console.log(err);
+  //       } else {
+  //         console.log("Successfully saved ToDo item");
+  //       }
+  //     });
+    }
+  });
+    // items.push(item);
     res.redirect("/");
 });
 

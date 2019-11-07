@@ -17,6 +17,6 @@
   <% posts.slice().reverse().forEach(function(post){ %>
   <%  //console.log(post.title); %>
   <h1><%= post.title %></h1>
-  <p><%= post.comment %></p>
+  <p><%= post.comment.slice(0,100) %> ...</p>
   <% }) %>
 <% include ../partials/footer %>

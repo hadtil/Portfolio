@@ -16,7 +16,10 @@
   <!-- posts array stays the same, the .slice() creates a shallow copy. -->
   <% posts.slice().reverse().forEach(function(post){ %>
   <%  //console.log(post.title); %>
+  <% var webTitle = post.title.replace(/\W+/g, '-').toLowerCase(); %>
+  <!-- g flag makes the replacement globally within the string,
+       W+ will match one or more nonalphanumeric characters -->
   <h1><%= post.title %></h1>
-  <p><%= post.comment.slice(0,100) %> ...</p>
+  <p><%= post.comment.slice(0,100) %> ... <a href="/posts/<%=webTitle%>">Read More</a></p>
   <% }) %>
 <% include ../partials/footer %>

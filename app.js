@@ -50,10 +50,10 @@ app.post("/compose", function(req, res){
 });
 
 app.get("/posts/:blogTitle", function(req, res) {
-    console.log(req.params.blogTitle);
+    // console.log(req.params.blogTitle);
 
     var standardTitle = _.lowerCase(req.params.blogTitle);
-    console.log(standardTitle);
+    // console.log(standardTitle);
 
     //    myArray.find(x => x.id === '45').foo;
     // If you want to find its index instead, use findIndex():
@@ -64,20 +64,20 @@ app.get("/posts/:blogTitle", function(req, res) {
     // indexOf() just takes the value you're looking for.
     //    myArray.indexOf("Apple");
 
-    myPosts.forEach(function(element) {
-      console.log(_.lowerCase(element.title));
-    });
+    // myPosts.forEach(function(element) {
+      // console.log(_.lowerCase(element.title));
+    // });
 
     // var result = myPosts.find(({title}) => _.lowerCase(title) === standardTitle);
     var result = myPosts.findIndex(({title}) => _.lowerCase(title) === standardTitle);
 
     // if (typeof result !== 'undefined'){ // needed for find()
     if (result !== -1){
-      console.log("Match Found");
+      // console.log("Match Found");
       res.render("pages/post.ejs", {postTitle:myPosts[result].title,
                                     postContent:myPosts[result].comment});
     } else {
-      console.log("Match not Found");
+      // console.log("Match not Found");
       res.redirect('/');
     }
 

@@ -1,0 +1,16 @@
+{
+  "name": "simple-call-python-script-01",
+  "version": "1.0.0",
+  "description": "Call an external Python Script then display results",
+  "main": "callPython.js",
+  "dependencies": {
+    "node": "^13.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node callPython.js"
+  },
+  "author": "Duncan Wilson",
+  "license": "ISC"
+}

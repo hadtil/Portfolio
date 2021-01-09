@@ -16,8 +16,10 @@
 
 ##### 01 Expanding Cards
 
-&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/01_ExpandingCards/README.md)
-&nbsp;&nbsp;&nbsp;![Image1](./Web/JS/01_ExpandingCards/project/screencapture-galaxy.png)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/01_ExpandingCards/project/screencapture-galaxy.png" width="400">\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/01_ExpandingCards/README.md)
+<!-- ![Image1](./Web/JS/01_ExpandingCards/project/screencapture-galaxy.png) 
+     <img src="./Web/JS/01_ExpandingCards/project/screencapture-galaxy.png" width="100" height="100"> -->
 
 <a name="webjs02"/>
 

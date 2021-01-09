@@ -16,7 +16,7 @@
 
 ##### 01 Expanding Cards
 
-[Markdown Cheatsheet](./Web/JS/README.md)
+[Readme](./Web/JS/01_ExpandingCards/README.md)
 
 <a name="webjs02"/>
 

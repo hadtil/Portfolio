@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- https://fontawesome.com via https://cdnjs.com/ -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum eum fuga reprehenderit optio tempora quisquam. Dicta eos, voluptate, repellendus id voluptates cupiditate voluptas nobis tempora perspiciatis cum maiores vel inventore animi dolorum velit! Sequi illum iusto similique ipsam doloribus, totam quae obcaecati rerum voluptatibus impedit est, rem iure ut? Expedita vitae, ea enim quo maxime commodi rem perferendis amet aperiam ratione veniam adipisci veritatis reprehenderit quia numquam. Ratione amet, numquam dolore animi aliquid nihil. Molestias optio, iste delectus expedita sunt quos eos quod? Quam ratione dicta, in error molestias nemo delectus cum perferendis, labore, illum exercitationem quis. Sint, omnis quis.</p>
 
+            <h3>My Dog</h3>
+            <img src="./images/jamie-street-UtrE5DcgEyg-unsplash.jpg" alt="doggy" />
+            <span>Photo by <a href="https://unsplash.com/@jamie452?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jamie Street</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsam odio fugit nesciunt hic, corporis velit consequuntur enim? Nostrum ipsam porro sapiente earum amet consequatur sint alias suscipit laborum voluptatibus? Magnam omnis veritatis aperiam architecto doloribus ducimus culpa aut amet sapiente tenetur minus, quo, accusantium, hic nam temporibus. Eveniet minima natus, cupiditate unde incidunt animi laboriosam vel mollitia beatae porro quis aliquam, aut fuga commodi itaque rerum. Quis adipisci corporis cumque? Nihil molestiae veritatis minus!</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>

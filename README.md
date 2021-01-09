@@ -6,6 +6,7 @@
 &nbsp;&nbsp;&nbsp;[02 - Progress Steps](#webjs02)  
 &nbsp;&nbsp;&nbsp;[03 - Rotating Navigation](#webjs03)  
 &nbsp;&nbsp;&nbsp;[04 - Hidden Secret Widget](#webjs04)  
+&nbsp;&nbsp;&nbsp;[05 - Blurry Loading](#webjs05)  
 [Links](#links)  
 
 #### <a name="webjs"></a>Web JavaScript <font size="2">([Contents](#contents))</font>
@@ -30,8 +31,7 @@
 
 ##### <a name="webjs03"></a> 03 Rotating Navigation <font size="2">([Contents](#contents))</font>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/03_RotatingNavigation/project/mark-konig-Uu5fnOkFAdA-unsplash.jpg" width="400">\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/03_RotatingNavigation/project/screencapture-open.png" width="400">\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/03_RotatingNavigation/README.md)
 
 <!-- ====================================================================== -->
@@ -41,6 +41,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/04_HiddenSearchWidget/project/mark-konig-Uu5fnOkFAdA-unsplash.jpg" width="400">\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/04_HiddenSearchWidget/README.md)
+
+<!-- ====================================================================== -->
+
+##### <a name="webjs05"></a> 05 Blurry Loading <font size="2">([Contents](#contents))</font>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/05_BlurryLoading/project/mark-konig-Uu5fnOkFAdA-unsplash.jpg" width="400">\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/05_BlurryLoading/README.md)
 
 <!-- ====================================================================== -->
 

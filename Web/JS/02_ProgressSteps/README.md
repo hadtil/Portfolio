@@ -1,4 +1,4 @@
-# Portfolio_Web_JS_02_ProgressSteps
+# Portfolio - Web JavaScript 02 Progress Steps
 50 Projects In 50 Days - HTML, CSS &amp; Javascript (Udemy)
 
 <!-- [Home](/README.md) or this [Home](/../../) works 

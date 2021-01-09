@@ -1,4 +1,4 @@
-# Portfolio_Web_JS_01_ExpandingCards
+# Portfolio - Web JavaScript 01 Expanding Cards
 50 Projects In 50 Days - HTML, CSS &amp; Javascript (Udemy)
 
 <!-- [Home](/README.md) or this [Home](/../../) works 

@@ -1,7 +1,7 @@
 # Portfolio
 
-#### Table of Contents  
-####[Web JavaScript](#webjs)  
+### Table of Contents  
+[Web JavaScript](#webjs)  
 &nbsp;&nbsp;&nbsp;[01 - Expanding Cards](#webjs01)  
 &nbsp;&nbsp;&nbsp;[02 - Progress Steps](#webjs02)  
 &nbsp;&nbsp;&nbsp;[03 - Rotating Navigation](#webjs03)  
@@ -9,11 +9,15 @@
 [Links](#links)  
 
 <a name="webjs"/>
+
 #### Web JavaScript
 
 <a name="webjs01"/>
+
 ##### 01 Expanding Cards
-[Readme](./Web/JS/01_ExpandingCards/README.md)
+
+&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/01_ExpandingCards/README.md)
+&nbsp;&nbsp;&nbsp;![Image1](./Web/JS/01_ExpandingCards/project/screencapture-galaxy.png)\
 
 <a name="webjs02"/>
 

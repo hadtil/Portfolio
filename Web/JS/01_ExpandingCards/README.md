@@ -1,11 +1,12 @@
 # Portfolio_Web_JS_01_ExpandingCards
 50 Projects In 50 Days - HTML, CSS &amp; Javascript (Udemy)
 
-[Home](/READEME.md)
+<!-- [Home](/README.md) or this [Home](/../../) works 
+- first links to file in root "/"
+- second links to base "Portfolio" folder going down from root "/" through "main" then "blob"
+-- note blob for files and tree for directories so need to link to files -->
 
-[Home](/../../)
-
-<!-- [Home](../../../READEME.md) -->
+[Home](/README.md)
 
 Simple Card (as image tiles) expansion and contraction according to mouse click.
 ![Image1](./project/screencapture-winter_scene.png)

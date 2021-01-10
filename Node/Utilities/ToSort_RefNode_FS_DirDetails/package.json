@@ -1,0 +1,16 @@
+{
+  "name": "directory-details",
+  "version": "1.0.0",
+  "description": "List contents and whether they are files or folders",
+  "main": "directory_details.js",
+  "dependencies": {
+    "node": "^13.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node directory_details.js"
+  },
+  "author": "Duncan Wilson",
+  "license": "ISC"
+}

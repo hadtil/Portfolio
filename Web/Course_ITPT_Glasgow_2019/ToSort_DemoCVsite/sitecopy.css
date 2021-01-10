@@ -1,0 +1,248 @@
+/* HTML TAGS */
+
+h1{
+  color:#cca8e9;
+}
+
+h2{
+  color:teal;
+}
+
+h3{
+  color:#cca8e9;
+}
+
+  /*
+  background-color: aquamarine;
+  background-color: #defcf9;
+  */
+/*  margin: 0px;
+
+p{
+  background-color: darkorange;
+  margin:0px;
+}
+*/
+
+body{
+  text-align: center;
+  background-color: #defcf9;
+  margin: 0px;
+}
+
+/* CLASSES */
+
+.intro{
+  background-color:burlywood;
+}
+
+.followup{
+  color:brown;
+}
+
+.skills{
+  margin:auto;
+  width:40%;
+}
+/*
+.skill-row{
+  margin-top: 50px;
+}
+*/
+
+.topsr{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.botsr{
+  margin-bottom: 50px;
+}
+
+.smallimg{
+  width:70px;
+}
+
+.topsrdetail{
+  width:100%;
+  text-align: center;
+}
+
+
+.botsrdetail{
+  width:100%;
+  text-align: center;
+}
+
+.leftimg{
+  float:left;
+  margin-right: 60px;
+}
+
+.rightimg{
+  float: right;
+  margin-left: 60px;
+}
+
+/*
+/*
+.top{
+  background-color: red;
+  padding: 5px 20px 5px;
+  margin-top: 20px;
+  width:30%;
+}
+.middle{
+  background-color: yellow;
+  padding-left:10px;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width:50%;
+  padding:4px 20px;
+}
+.bottom{
+  background-color: blue;
+  padding:10px;
+}
+*/
+/*
+.top{
+  background-color: red;
+  height:100px;
+  width:100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:blue;
+}
+.middle{
+  background-color: yellow;
+  height:100px;
+  width:100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:red;
+  margin-left: 120px;
+}
+.bottom{
+  height:100px;
+  width:100px;
+  background-color: blue;
+  margin-left: 240px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:yellow;
+}
+*/
+
+.frontpage{
+  margin-top: 15px;
+}
+
+/*
+.detail{
+  }
+.footer{
+
+}
+
+.programmer{
+  display: inline;
+}
+*/
+
+.underline{
+   text-decoration: underline;
+}
+
+/* RELATIVE * /
+.top2{
+  background-color: red;
+  height:100px;
+  width:100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:blue;
+}
+.middle2{
+  background-color: yellow;
+  height:100px;
+  width:100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:red;
+  position: relative;
+  left:120px;
+}
+.bottom2{
+  height:100px;
+  width:100px;
+  background-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  border-color:yellow;
+  position: relative;
+  left:240px;
+}
+*/
+/* ABSOLUTE */
+/*
+.top2{
+  background-color: red;
+  height:100px;
+  width:100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:blue;
+}
+.middle2{
+  background-color: yellow;
+  height:100px;
+  width:100px;
+  border-width: 10px;
+  border-style: solid;
+  border-color:red;
+  position: absolute;
+  left:120px;
+}
+.bottom2{
+  height:100px;
+  width:100px;
+  background-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  border-color:yellow;
+  position: absolute;
+  top:600px;
+  left:240px;
+}
+*/
+
+.headingCloud{
+  position: absolute;
+  right:150px;
+}
+
+.bodyCloud{
+  position:absolute;
+  top:200px;
+  left:200px;
+}
+
+.mountain{
+  position: relative;
+  top: -70px;
+}
+
+/* ID TAGS */
+/*
+#dislike{
+  color:red;
+  font-weight:bold;
+}
+#excuse{
+  color:blue;
+}
+#excuse{
+  color:green;
+}
+*/

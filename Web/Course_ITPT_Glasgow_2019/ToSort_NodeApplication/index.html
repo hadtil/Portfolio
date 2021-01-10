@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="text-align:center;">
+    <br><br><br><br><br><br>
+  <div class="container">
+    <div class="container-fluid">
+
+      <form class="form-signin" method="post" action="/result">
+        <h1 class="h3 mb-3 font-weight-normal">Body Mass Index Calculator</h1>
+        <label for="UserName" class="sr-only">Name</label>
+        <input type="text" name="UserName" class="form-control" placeholder="Please insert your name" required autofocus>
+        <label for="inputWeight" class="sr-only">Weight (kg)</label>
+        <input type="number" name="inputWeight" class="form-control" placeholder="Please insert your weight in kilograms" required>
+        <label for="inputHeight" class="sr-only">Height (cm)</label>
+        <input type="number" name="inputHeight" class="form-control" placeholder="Please insert your height in centimetres" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Calculate</button>
+      </form>
+
+    </div>
+  </div>
+  </body>
+</html>

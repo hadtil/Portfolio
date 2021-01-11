@@ -38,8 +38,7 @@
 
 ##### <a name="webjs04"></a> 04 Hidden Search Widget <font size="2">([Contents](#contents))</font>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/04_HiddenSearchWidget/project/mark-konig-Uu5fnOkFAdA-unsplash.jpg" width="400">\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/04_HiddenSearchWidget/project/SearchDefault.png" width="200"> <img src="./Web/JS/04_HiddenSearchWidget/project/SearchActive.png" width="200">\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/04_HiddenSearchWidget/README.md)
 
 <!-- ====================================================================== -->

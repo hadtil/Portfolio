@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+scipy = "*"
+kivy = {extras = ["full"], version = "*"}
+kivy-examples = "*"
+covid = "*"
+covid19-data = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

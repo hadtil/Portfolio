@@ -1,0 +1,15 @@
+# This file manages the Kivy screens - both of which are in the "kv" folder
+# Need to import them...
+#: include kv/clockscreen.kv
+#: include kv/stopwatchscreen.kv
+
+FloatLayout:
+    ScreenManager:
+        id: screen_manager
+        ClockScreen:
+            name: "clock_screen"
+            id: clock_screen
+        StopwatchScreen:
+            name: "stopwatchscreen"
+            id: stopwatchscreen
+

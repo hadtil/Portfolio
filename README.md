@@ -9,6 +9,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[04 - Hidden Secret Widget](#webjs04)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[05 - Blurry Loading](#webjs05)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[06 - Scroll Animation](#webjs06)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[07 - Split Landing Page](#webjs07)  
 [Node](#node)  
 &nbsp;&nbsp;&nbsp;[Node JavaScript](#nodejs)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ITPT Course (Glasgow 2019)](#nodejscourse)  
@@ -71,6 +72,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/06_ScrollAnimation/project/mark-konig-Uu5fnOkFAdA-unsplash.jpg" width="400">\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/06_ScrollAnimation/README.md)
+
+<!-- ====================================================================== -->
+
+- ###### <a name="webjs07"></a> 07 Split Landing Page <font size="2">([Contents](#contents))</font>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Web/JS/07_SplitLandingPage/project/mark-konig-Uu5fnOkFAdA-unsplash.jpg" width="400">\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Photo by <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mark König</a> on <a href="https://unsplash.com/@markkoenig?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Readme](./Web/JS/07_SplitLandingPage/README.md)
 
 <!-- ====================================================================== -->
 

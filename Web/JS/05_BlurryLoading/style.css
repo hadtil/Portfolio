@@ -20,10 +20,13 @@ body {
         center center/cover;
     /* background: url("images/sandis-EPZfmhsYlek-unsplash.jpg") no-repeat center center/cover; */
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+
+    /* The blurring leaves an effect that encroaches from outside edges - purely a personal preference */
+    top: -30px; /* was 0px */
+    left: -30px; /* was 0px */
+    /* Calculations to take into effect the adjustments to the top and left made above */
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
     z-index: -2;
     filter: blur(0px);
 }
@@ -33,45 +36,30 @@ body {
 }
 
 .loading-text {
-    /* position: relative; */
     max-width: 50%;
     font-size: 50px;
     color: white;
-    /* z-index: 1; */
 }
-
-/* Taken from:
-    https://stackoverflow.com/questions/21671292/aligning-text-to-bottom-left-corner-inside-a-styled-element
-
-    Try to wrap your targeted text inside a span:
-    <article class="box" style="background-color: #2672EC"><span class="bottom">foo bar</span>
-    
-    Then you can use:
-    .box {
-        position: relative;
-    }
-    .bottom {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-*/
 
 .credit-text {
     align-self: flex-start;
-    /* align-self: flex-end; */
-    /* position: relative; */
-    /* z-index: -1;*/
-    /* top: 0; */
-    /* left: 0; */
-    /*width: 100vw;
-    height: 100vh; */
+    padding: 10px;
 }
 
 .credit-photo {
-    /* position: absolute;
-    bottom: 0;
-    left: 0;*/
     color: white;
     font-size: 25px;
+}
+
+.credit-photo a:link {
+    color: white;
+}
+.credit-photo a:visited {
+    color: green;
+}
+.credit-photo a:hover {
+    color: red;
+}
+.credit-photo a:active {
+    color: yellow;
 }
